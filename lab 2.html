@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javaScript.js"></script>
+</head>
+
+<body>
+    <div class="form1">
+        <form>
+            
+            <div>
+                <h2>Напої</h2>
+
+                <div>
+                    <input type="radio" name="option" value="10">
+                    <label>Чай</label>
+                    - 10 грн
+                </div>
+
+                <div>
+                    <input type="radio" name="option" value="20">
+                    <label>Сік</label>
+                    - 20 грн
+                </div>
+
+                <div>
+                    <input type="radio" name="option" value="35">
+                    <label>Кава</label>
+                    - 35 грн
+                </div>
+            </div>
+
+
+            <div>
+                <h2>Перша страва</h2>
+
+                <div>
+                    <input type="checkbox" name="eat1" value="45">
+                    <label>Суп</label>
+                    - 45 грн
+                </div>
+
+                <div>
+                    <input type="checkbox" name="eat1" value="37">
+                    <label>Борщ</label>
+                    - 37 грн
+                </div>
+            </div>
+
+
+            <div>
+                <h2>Друга страва</h2>
+
+                <div>
+                    <input type="checkbox" name="eat2" value="60">
+                    <label>Паста</label>
+                    - 60 грн
+                </div>
+
+                <div>
+                    <input type="checkbox" name="eat2" value="55">
+                    <label>Картопля з котлетою</label>
+                    - 55 грн
+                </div>
+
+                <div>
+                    <input type="checkbox" name="eat2" value="49">
+                    <label>Гречка з грибами</label>
+                    - 49 грн
+                </div>
+            </div>
+
+
+            <div class="buttons">
+                <button type="button" onclick="calcTotal()">
+                    Порахувати
+                </button>
+
+                <button type="reset" onclick="resetTotal()">
+                    Скинути
+                </button>
+            </div>
+
+            <div id="result"></div>
+
+        </form>
+    </div>
+</body>
+</html>
